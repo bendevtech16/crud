@@ -1,0 +1,83 @@
+*, ::after, ::before, body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vh;
+    align-items: center;
+    background: #c79494;
+    height: auuto;
+    
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    color: rgb(173, 108, 173);
+    font-size:x-large;
+    text-decoration: double green;
+    margin: 40px;
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid #333;
+    margin-top: 40px;
+
+}
+
+table thead{
+    font-size: 18px;
+    background-color: rgba(8, 211, 93, 0.671);
+    color: #f1f1f1;
+    padding: 15px;
+    text-align: center;
+}
+tbody td{
+    border: 2px solid #333;
+    text-align: center;
+    padding: 20px;
+    text-transform: capitalize;
+}
+.btnAdd{
+    text-decoration: none;
+    height: 30px;
+    border:none;
+    background: #1f2bd3;
+    color: #f1f1f1;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+
+form{
+
+    margin-top: 40px;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid #f1f1f1; */
+    text-align: center;
+   
+}
+input{
+    height: 55px;
+    border: none;
+    width: 300px;
+    background:#f1f1f1;
+    padding: 5px;
+    border-radius: 3px;
+}
+.edit{
+    text-decoration: none;
+    width: 45px;
+    height: 30px;
+    background: blue;
+    
+}
+.imgEdit{
+    width: 16px;
+    height: 16px;
+    
+}
