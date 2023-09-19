@@ -11,6 +11,7 @@ if(isset($_GET['matricule'])){
     $stmt->bindParam( 1,$matricule);
     $stmt->execute();
     echo"element supprimer!!!";
+    
     header('location: index.php)');
    
 }
